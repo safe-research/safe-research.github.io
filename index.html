@@ -19,6 +19,9 @@
         a {
           text-decoration: none;
         }
+        a:hover {
+          color: #12ff80;
+        }
     </style>
   </header>
   <body>
@@ -35,6 +38,19 @@
             <a href="https://github.com/ennisjo"><img src="https://avatars.githubusercontent.com/u/25203220?s=200" width="100" height="100" alt="ennisjo" /></a>
             <a href="https://github.com/remedcu"><img src="https://avatars.githubusercontent.com/u/30735581?s=200" width="100" height="100" alt="remedcu" /></a>
         </div>
+        <br /><br />
+        <div align="center">
+          <a href="https://github.com/safe-research" target="_blank">Find us on GitHub</a>.
+          <a href="#" id="contact-link">Send us a message</a>.
+          <a href="https://safe.global/imprint" target="_blank">Imprint</a>
+        </div>
     </div>
   </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactLink = document.getElementById('contact-link');
+      const email = ['safe.dev', '@', 'research'].reverse().join('');
+      contactLink.href = 'mailto:' + email;
+    });
+  </script>
 </html>
