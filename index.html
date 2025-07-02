@@ -41,11 +41,16 @@
         <br /><br />
         <div align="center">
           <a href="https://github.com/safe-research" target="_blank">Find us on GitHub</a>.
-          <script>
-            document.write('<a href="mailto:' + 'research' + '@' + 'safe.dev">Send us a message</a>');
-          </script>.
+          <a href="#" id="contact-link">Send us a message</a>.
           <a href="https://safe.global/imprint" target="_blank">Imprint</a>
         </div>
     </div>
   </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactLink = document.getElementById('contact-link');
+      const email = ['research', '@', 'safe.dev'].join('');
+      contactLink.href = 'mailto:' + email;
+    });
+  </script>
 </html>
