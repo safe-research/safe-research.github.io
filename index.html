@@ -49,7 +49,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const contactLink = document.getElementById('contact-link');
-      const email = ['research', '@', 'safe.dev'].join('');
+      const email = ['safe.dev', '@', 'research'].reverse().join('');
       contactLink.href = 'mailto:' + email;
     });
   </script>
