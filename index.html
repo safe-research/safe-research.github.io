@@ -7,7 +7,7 @@
     <link rel="manifest" href="./site.webmanifest">
     <style>
         html * {
-            font-family: Arial !important;
+            font-family: monospace !important;
             color: #f0f6fc;
         }
         body {
@@ -22,6 +22,30 @@
         a:hover {
           color: #12ff80;
         }
+        ul {
+          padding: 0;
+          margin: 0px;
+          text-decoration: none;
+          list-style-type: none;
+          text-align: center;
+        }
+        ul>li{
+          margin: 16px;
+          font-size: 16px;
+        }
+        .spacer {
+          color: #12ff8040;
+          text-align: center;
+          letter-spacing: 4px;
+          font-weight: bold;
+          margin-top: 16px;
+          margin-bottom: 16px;
+        }
+        .contact {
+          text-align: center;
+          margin-top: 8px;
+          font-size: 16px;
+        }
     </style>
   </head>
   <body>
@@ -31,28 +55,27 @@
           <img src="./banner.png" height="75" alt="Safe Research" />
         </a>
         <div align="center">
-          <a href="https://github.com/safe-research" target="_blank">Find us on GitHub</a>.
-          <a href="#" id="contact-link">Send us a message</a>.
-        </div>
-        <br /><br />
-        <div align="center">
             <a href="https://github.com/tschubotz"><img src="https://avatars.githubusercontent.com/u/1380529?s=200" width="100" height="100" alt="tschubotz" /></a>
             <a href="https://github.com/rmeissner"><img src="https://avatars.githubusercontent.com/u/2896048?s=200" width="100" height="100" alt="rmeissner" /></a>
             <a href="https://github.com/nlordell"><img src="https://avatars.githubusercontent.com/u/4210206?s=200" width="100" height="100" alt="nlordell" /></a>
             <a href="https://github.com/ennisjo"><img src="https://avatars.githubusercontent.com/u/25203220?s=200" width="100" height="100" alt="ennisjo" /></a>
             <a href="https://github.com/remedcu"><img src="https://avatars.githubusercontent.com/u/30735581?s=200" width="100" height="100" alt="remedcu" /></a>
         </div>
-        <br />
-        <hr style="width:33%" />
-        <br />
-        <div align="center">
-          <a href="https://safe.global/blog/harbour-towards-fully-onchain-multisig-operations" target="_blank">Harbour: Towards Fully Onchain Multisig Operations</a>
-          <br /><br />
-          <a href="https://safe.global/blog/safe-research-manifesto" target="_blank">Safe Research Manifesto</a>
+        <div class="contact">
+          <a href="https://github.com/safe-research" target="_blank">Find us on GitHub</a>
+          &hearts;
+          <a href="#" id="contact-link">Send us an Email</a>
         </div>
-        <br />
-        <hr style="width:33%" />
-        <br />
+        <p class="spacer">///////////////////////////////////////////////////////</p>
+        <ul>
+          <li>
+            <a href="https://safe.global/blog/harbour-towards-fully-onchain-multisig-operations" target="_blank">Harbour: Towards Fully Onchain Multisig Operations</a>
+          </li>
+          <li>
+            <a href="https://safe.global/blog/safe-research-manifesto" target="_blank">Safe Research Manifesto</a>
+          </li>
+        </ul>
+        <p class="spacer">///////////////////////////////////////////////////////</p>
         <div align="center">
           <a href="https://safe.global/imprint" target="_blank">Imprint</a>
         </div>
