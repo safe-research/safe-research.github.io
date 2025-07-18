@@ -1,58 +1,17 @@
 <html>
   <head>
     <title>Safe Research</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/icons/favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
-    <style>
-        html * {
-            font-family: monospace !important;
-            color: #f0f6fc;
-        }
-        body {
-            background-color: #0d1117;
-        }
-        h1 {
-          display: none;
-        }
-        a {
-          text-decoration: none;
-        }
-        a:hover {
-          color: #12ff80;
-        }
-        ul {
-          padding: 0;
-          margin: 0px;
-          text-decoration: none;
-          list-style-type: none;
-          text-align: center;
-        }
-        ul>li{
-          margin: 16px;
-          font-size: 16px;
-        }
-        .spacer {
-          color: #12ff8040;
-          text-align: center;
-          letter-spacing: 4px;
-          font-weight: bold;
-          margin-top: 16px;
-          margin-bottom: 16px;
-        }
-        .contact {
-          text-align: center;
-          margin-top: 8px;
-          font-size: 16px;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
     <div style="display:flex; flex-direction:column; height: 100%; justify-content: center;">
         <a href="https://www.github.com/safe-research" style="display: block; text-align: center; margin-bottom: 32px">
           <h1 align="center">Safe Research</h1>
-          <img src="./banner.png" height="75" alt="Safe Research" />
+          <img src="./assets/images/banner.png" height="75" alt="Safe Research" />
         </a>
         <div align="center">
             <a href="https://github.com/tschubotz"><img src="https://avatars.githubusercontent.com/u/1380529?s=200" width="100" height="100" alt="tschubotz" /></a>
@@ -88,12 +47,6 @@
           <a href="https://safe.global/imprint" target="_blank">Imprint</a>
         </div>
     </div>
+    <script src="./assets/js/main.js"></script>
   </body>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const contactLink = document.getElementById('contact-link');
-      const email = ['safe.dev', '@', 'research'].reverse().join('');
-      contactLink.href = 'mailto:' + email;
-    });
-  </script>
 </html>

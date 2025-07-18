@@ -1,0 +1,40 @@
+html * {
+    font-family: monospace !important;
+    color: #f0f6fc;
+}
+body {
+    background-color: #0d1117;
+}
+h1 {
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #12ff80;
+}
+ul {
+    padding: 0;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+ul>li{
+    margin: 16px;
+    font-size: 16px;
+}
+.spacer {
+    color: #12ff8040;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.contact {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 16px;
+}
