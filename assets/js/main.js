@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactLink = document.getElementById('contact-link');
     if (contactLink) {
         // Email obfuscation: construct email address from parts
-        const email = ['research', '@', 'safe.dev'].join('');
+        const email = ['safe.dev', '@', 'research'].reverse().join('');
         contactLink.href = 'mailto:' + email;
     }
 });
