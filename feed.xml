@@ -2,9 +2,9 @@
 <rss version="2.0">
 
     <channel>
-        <title>Safe Research - Blog Posts</title>
-        <link>https://safe.global/blog?category=Safe+Research</link>
-        <description>Latest updates on blog posts from the Safe Research team</description>
+        <title>Safe Research - Posts</title>
+        <link>https://safe.global/blog?category=Safe+Research&utm_source=safe_rss</link>
+        <description>Latest updates on publications from the Safe Research team</description>
         <item>
             <link>https://safe.global/blog/safe-research-the-state-of-encryption-in-web3?utm_source=safe_rss</link>
             <title>The State of Encryption in Web3</title>
