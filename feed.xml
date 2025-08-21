@@ -6,6 +6,11 @@
         <link>https://safe.global/blog?category=Safe+Research&amp;utm_source=safe_rss</link>
         <description>Latest updates on publications from the Safe Research team</description>
         <item>
+            <link>https://safe.global/blog/safe-research-fiducia-onchain-trust-rules-and-cosigning?utm_source=safe_rss</link>
+            <title>Fiducia: Onchain Trust Rules and Cosigning</title>
+            <description>Fiducia: Onchain Trust Rules and Cosigning</description>
+        </item>
+        <item>
             <link>https://safe.global/blog/safe-research-decentralized-signature-collection-with-erc-4337?utm_source=safe_rss</link>
             <title>Frictionless Queues: Decentralized Signature Collection with ERC-4337</title>
             <description>Frictionless Queues: Decentralized Signature Collection with ERC-4337</description>
