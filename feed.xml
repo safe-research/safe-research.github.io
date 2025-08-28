@@ -6,6 +6,11 @@
         <link>https://safe.global/blog?category=Safe+Research&amp;utm_source=safe_rss</link>
         <description>Latest updates on publications from the Safe Research team</description>
         <item>
+            <link>https://safe.global/blog/safe-research-zk-passport-where-are-we-now</link>
+            <title>ZK passport: where are we now?</title>
+            <description>ZK passport: where are we now?</description>
+        </item>
+        <item>
             <link>https://safe.global/blog/safe-research-fiducia-onchain-trust-rules-and-cosigning?utm_source=safe_rss</link>
             <title>Fiducia: Onchain Trust Rules and Cosigning</title>
             <description>Fiducia: Onchain Trust Rules and Cosigning</description>
@@ -49,11 +54,6 @@
             <link>https://ethereum-magicians.org/t/multi-chain-deployment-process-for-a-permissionless-contract-factory/24318</link>
             <title>ERC-7955 Permissionless CREATE2 Factory</title>
             <description>ERC-7955 Permissionless CREATE2 Factory</description>
-        </item>
-        <item>
-            <link>https://safe.global/blog/safe-research-zk-passport-where-are-we-now</link>
-            <title>ZK passport: where are we now?</title>
-            <description>ZK passport: where are we now?</description>
         </item>
     </channel>
 
