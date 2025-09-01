@@ -50,11 +50,6 @@
             <title>Harbour: Towards Fully Onchain Multisig Operations</title>
             <description>Harbour: Towards Fully Onchain Multisig Operations</description>
         </item>
-        <item>
-            <link>https://ethereum-magicians.org/t/multi-chain-deployment-process-for-a-permissionless-contract-factory/24318</link>
-            <title>ERC-7955 Permissionless CREATE2 Factory</title>
-            <description>ERC-7955 Permissionless CREATE2 Factory</description>
-        </item>
     </channel>
 
 </rss>
