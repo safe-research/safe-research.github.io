@@ -6,6 +6,11 @@
         <link>https://safe.global/blog?category=Safe+Research&amp;utm_source=safe_rss</link>
         <description>Latest updates on publications from the Safe Research team</description>
         <item>
+            <link>https://safe.global/blog/safe-research-secret-harbour?utm_source=safe_rss</link>
+            <title>Secret Harbour: Encrypted Multisig Transactions for Safe</title>
+            <description>Secret Harbour: Encrypted Multisig Transactions for Safe</description>
+        </item>
+        <item>
             <link>https://safe.global/blog/safe-research-zk-passport-where-are-we-now?utm_source=safe_rss</link>
             <title>ZK passport: where are we now?</title>
             <description>ZK passport: where are we now?</description>
